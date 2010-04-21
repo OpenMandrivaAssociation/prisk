@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/Games/%{upstream_name}-%{upstr
 
 BuildRequires: perl(Class::Accessor::Fast)
 BuildRequires: perl(File::Basename)
+BuildRequires: perl(File::ShareDir)
 BuildRequires: perl(File::Temp)
 BuildRequires: perl(Getopt::Euclid)
 BuildRequires: perl(Image::Imlib2)
