@@ -33,6 +33,7 @@ BuildRequires: perl(Tk::PNG)
 BuildRequires: perl(Tk::Pane)
 BuildRequires: perl(UNIVERSAL::require)
 BuildRequires: perl(aliased)
+BuildRequires: x11-server-xvfb
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
@@ -55,7 +56,7 @@ This distribution implements a graphical interface for this game.
 ./Build
 
 %check
-./Build test
+xvfb-run ./Build test
 
 %install
 %{__rm} -rf %{buildroot}
