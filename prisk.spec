@@ -1,5 +1,5 @@
 %define upstream_name    Games-Risk
-%define upstream_version 3.101110
+%define upstream_version 3.101590
 
 Name:       prisk
 Version:    %perl_convert_version %{upstream_version}
