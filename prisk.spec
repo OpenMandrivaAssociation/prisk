@@ -3,7 +3,7 @@
 
 Name:       prisk
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Classical 'risk' board game
 License:    GPL+ or Artistic
