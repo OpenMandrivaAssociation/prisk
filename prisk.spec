@@ -1,9 +1,9 @@
 %define upstream_name    Games-Risk
-%define upstream_version 3.101590
+%define upstream_version 3.103040
 
 Name:       prisk
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Classical 'risk' board game
 License:    GPL+ or Artistic
