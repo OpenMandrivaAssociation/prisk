@@ -44,6 +44,7 @@ BuildRequires: perl(Tk::Sugar)
 BuildRequires: perl(Tk::TableMatrix)
 BuildRequires: perl(UNIVERSAL::require)
 BuildRequires: perl(aliased)
+BuildRequires: perl(Module::Build)
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
