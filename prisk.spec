@@ -84,3 +84,33 @@ rm -rf %buildroot
 %{_mandir}/man1/*
 %{_mandir}/man3/*
 %perl_vendorlib/*
+
+
+%changelog
+* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 3.103.40-2mdv2011.0
++ Revision: 657325
+- add br
+- rebuild for updated spec-helper
+
+* Fri Nov 12 2010 Jérôme Quelin <jquelin@mandriva.org> 3.103.40-1mdv2011.0
++ Revision: 596609
+- update to 3.103040
+
+  + Guillaume Rousse <guillomovitch@mandriva.org>
+    - rebuild to fix perl path in binary
+
+* Sat Jul 17 2010 Jérôme Quelin <jquelin@mandriva.org> 3.101.590-1mdv2011.0
++ Revision: 554687
+- skip tests, since xvfb-run is broken
+- adding missing buildrequires:
+- update to 3.101590
+
+* Thu Apr 22 2010 Jérôme Quelin <jquelin@mandriva.org> 3.101.110-1mdv2010.1
++ Revision: 537897
+- run tests in a xvfb (require a display)
+- adding missing buildrequires:
+- import prisk
+
+
+* Wed Apr 21 2010 cpan2dist 3.101110-1mdv
+- initial mdv release, generated with cpan2dist
