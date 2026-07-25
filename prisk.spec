@@ -1,15 +1,15 @@
 %define upstream_name    Games-Risk
-%define upstream_version 3.103040
+%define upstream_version 4.000
 
 Name:       prisk
-Version:    %perl_convert_version %{upstream_version}
-Release:    3
+Version:    %{upstream_version}
+Release:    1
 
 Summary:    Classical 'risk' board game
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Games/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://github.com/jquelin/games-risk
+Source0:    https://cpan.metacpan.org/authors/id/J/JQ/JQUELIN/Games-Risk-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Class::Accessor::Fast)
 BuildRequires: perl(File::Basename)
